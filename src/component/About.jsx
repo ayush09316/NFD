@@ -4,7 +4,7 @@ import logo from "../assets/about/logo.svg";
 
 const About = () => {
   return (
-    <div className="w-full bg-slate-200 relative flex justify-center py-[170px] border-y-2 border-black ">
+    <div className="w-full bg-slate-200 relative flex justify-center py-[170px] ">
       <div>
         <div className="sticky top-[170px] opacity-100 w-full flex justify-between items-center gap-[150px] mx-6">
           <div className=" flex flex-col w-full max-w-[350px]">
