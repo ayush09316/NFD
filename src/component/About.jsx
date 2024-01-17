@@ -1,5 +1,5 @@
 import Block from "../assets/about/block.webp";
-import vid from "../assets/about/threejs.webm";
+import model from "../assets/about/model.png";
 import logo from "../assets/about/logo.svg";
 
 const About = () => {
@@ -19,13 +19,15 @@ const About = () => {
           </div>
 
           <div className="w-full max-w-[800px] relative ">
-            <video
+            {/* <video
               muted
               preload="preload"
-              className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-40"
+              controls={false}
+              className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-[100] w-full h-full"
             >
               <source src={vid} type="video/webm" />
-            </video>
+            </video> */}
+            <img src={model} alt="vid" className="absolute bottom-[25%] right-[30%] w-[50%] h-[50%]" />
             <img src={Block} alt="block" />
           </div>
         </div>
