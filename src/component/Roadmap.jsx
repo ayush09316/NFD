@@ -6,8 +6,8 @@ const Roadmap = () => {
   return (
     <div className="roadmap-bg">
       <div className="skew-border"></div>
-      <div className='absolute bottom-0 left-0 w-[20%] rounded-sm h-[8rem] z-40 bg-slate-50'></div>
-      <div className="absolute bottom-0 left-[20%]  w-[50%] bg-transparent border-t-[8rem] z-40 border-t-transparent border-l-slate-50 border-l-[10vw]"></div>
+      <div className='absolute bottom-0 left-0 w-[20%] rounded-sm h-[8rem] z-40 bg-white'></div>
+      <div className="absolute bottom-0 left-[20%]  w-[50%] bg-transparent border-t-[8rem] z-40 border-t-transparent border-l-white border-l-[10vw]"></div>
       <div className="roadmap-overlay"></div>
       <div className="absolute opacity-60 top-[20%] left-[-15%]">
         <img src={ellipse} alt="ellipse" />
