@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E8EBF1;
+  
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.nav-text{
+  @apply p-3 text-base cursor-pointer relative text-slate-600 hover:text-purple-600 ;
+}
+.mobile{
+ @apply fixed w-full h-[100vh]  top-20 left-0 text-center flex-col underline decoration-white p-10 ; 
+ 
+ background: linear-gradient(to bottom, #232325 0%,#212124 5%,#222126 17%,#242329 19%,#22222a 27%,#24242d 30%,#23232f 36%,#252531 37%,#242431 41%,#262633 42%,#262636 50%,#282838 52%,#262637 55%,#28283b 66%,#28283a 82%,#232330 100%);;
+}
+
+.mob-text{
+  @apply text-white text-3xl mt-6;
+}
+
+.text-heading-2{
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(132, 138, 255);
+  font-family:'Syne';
+}
+.text-heading-1{
+  text-align: center;
+    font-family: 'Syne';
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+}
+.hero-card{
+  background: rgb(255, 255, 255);
+  box-shadow:  0px 8px 30px rgba(149, 163, 191, 0.35);
+  border-radius: 15px;
+  padding: 6px 20px 6px 6px;
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 10px;
+}
+.hero-button{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(108, 82, 238);
+}
+.button-start{
+  position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    z-index: 1;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+.button-start::after{
+  left: 0px;
+    top: -30px;
+    height: 76px;
+    background: rgb(98, 144, 252);
+}
+.button-end{
+  right: 1px;
+  left: unset;
+  transform: scale(-1);
+  z-index: 1;
+}
+.button-end::after{
+  right: -20px;
+  top: 20px;
+  height: 71px;
+  background: rgb(149, 94, 252);
+}
+.hero-button-main{
+  width: 100%;
+    height: 100%;
+    background-color: rgb(108, 82, 238);
+    transition: all 0.5s ease 0s;
+}
+.hero-effect{
+  background: url(/src/assets/hero/PurpleEllips.webp) center center / cover no-repeat;
+  width: 100%;
+  height: 93px;
+  position: absolute;
+  bottom: 0px;
+}
+.hero-effect-1{
+  background: url(/src/assets/hero/PurpleEllips.webp) center center / cover no-repeat;
+  width: 100%;
+  height: 93px;
+  position: absolute;
+  top: 0px;
+  transform:scaleY(-1);
+}
+.hero-black-text{
+  font-family: Syne;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(39, 39, 80);
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 162.5%) text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.hero-gradient-text{
+  font-family: Syne;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(39, 39, 80);
+    background: linear-gradient(341.87deg, rgb(132, 138, 255) -1.64%, rgb(234, 140, 255) 106.1%) text;
+    -webkit-text-fill-color: transparent;
+}
+.contact{
+  @apply relative w-full flex justify-center items-center h-[700px] rounded-b-[100px];
+  background: rgb(108, 82, 238);
+}
+.contact-heading{
+  font-family: Syne;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 72px;
+    text-align: center;
+}
+.contact-button-start{
+  position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color:white;
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    z-index: 1;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+
+.contact-button-main{
+ 
+  width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: all 0.5s ease 0s;
+}
+.contact-button-end{
+  right: 1px;
+  left: unset;
+  transform: scale(-1);
+  z-index: 1;
+}
+.skew-border{
+  @apply bg-transparent absolute top-0 left-0 ;
+  width: 82%;
+  border-top: 7vw solid #F9F8FC;
+  border-right: 10vw solid transparent;
+}
+
+.roadmap-overlay{
+  @apply absolute  top-0 left-0 w-full h-full mix-blend-overlay;
+  background: url(../src/assets/roadmap/noiseRoadmapOPT.webp);
+}
+.roadmap-bg{
+  @apply w-full  relative flex justify-center items-center py-[240px];
+  background: linear-gradient(147.35deg, rgb(35, 35, 36) -0.9%, rgb(21, 21, 22) 116.23%);
+}
+.roadmap-heading{
+  font-family: Syne;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 88px;
+    text-align: center;
+    margin: 0px 0px 45px;
+}
+.member-heading{
+  font-family: Syne;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+    line-height: 72px;
+    margin: 0px;
+}
+
+
+
+
+
+
+/* .contact-button-start-1{
+  position: relative;
+    width: 24px;
+    min-width: 24px;
+    height: 49px;
+    background-color:transparent;
+    border: 2px white solid;
+    transition: all 0.5s ease 0s;
+    left: 1px;
+    z-index: 1;
+    clip-path: path("M 10 49 C 4.47715 49 0 44.5229 0 39 V 19.4871 C 0 16.1312 1.68339 12.999 4.48224 11.1472 L 18.8218 1.66007 C 20.4583 0.577328 22.3773 0 24.3395 0 H 88 C 93.5228 0 98 4.47716 98 10 V 28.7016 C 98 32.0576 96.3166 35.1898 93.5178 37.0416 L 77.9521 47.3399 C 76.3155 48.4227 74.3966 49 72.4343 49 H 10 Z");
+}
+
+.contact-button-main-1{
+ 
+  width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px white solid;
+    transition: all 0.5s ease 0s;
+}
+.contact-button-end-1{
+  right: 1px;
+  left: unset;
+  transform: scale(-1);
+  z-index: 1;
+} */
