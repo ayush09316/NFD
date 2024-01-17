@@ -6,5 +6,6 @@ import Contact from './Contact'
 import Roadmap from './Roadmap'
 import Members from './Members'
 import Features from './Features'
+import Aggregator from './Aggregator'
 
-export { Members,About, Hero, Footer, Navbar, Contact, Roadmap, Features };
+export {Aggregator, Members,About, Hero, Footer, Navbar, Contact, Roadmap, Features };

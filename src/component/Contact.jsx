@@ -7,7 +7,7 @@ import right from '../assets/contact/right.webp'
 
 const Contact = () => {
   return (
-    <div className="w-full bg-white">
+    <div id='contact-us' className="w-full bg-white">
         <div className="contact z-10">
             <div className='skew-border'></div>
             <div className='absolute z-[1] left-0'>

@@ -2,7 +2,7 @@ import activity from '../assets/feature/activities.webp'
 
 const Features = () => {
   return (
-    <div className="relative w-full flex justify-center items-center bg-white py-[170px]">
+    <div id='feature' className="relative w-full flex justify-center items-center bg-white py-[170px]">
         <div className='absolute top-[-4rem] left-0 w-[20%] rounded-sm h-[4rem] z-40 bg-white'></div>
       <div className="absolute top-[-4rem] left-[20%]  w-[50%] bg-transparent border-t-[4rem] z-40 border-t-transparent border-l-white border-l-[10vw]"></div>
        

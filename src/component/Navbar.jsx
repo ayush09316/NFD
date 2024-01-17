@@ -15,19 +15,19 @@ const Navbar = () => {
         <div>
           <ul className="xl:flex xs:hidden  gap-5 font-medium ">
             <li className="nav-text ">
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="nav-text  ">
-              <a href="#">Aggregator</a>
+              <a href="#aggregator">Aggregator</a>
             </li>
             <li className="nav-text ">
-              <a href="#">Features</a>
+              <a href="#feature">Features</a>
             </li>
             <li className="nav-text">
-              <a href="#">Roadmap</a>
+              <a href="#roadmap">Roadmap</a>
             </li>
             <li className="nav-text ">
-              <a href="#">Contact us</a>
+              <a href="#contact-us">Contact us</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import logo from "../assets/about/logo.svg";
 
 const About = () => {
   return (
-    <div className="w-full bg-slate-200 relative flex justify-center py-[170px] ">
+    <div id="about" className="w-full bg-white relative flex justify-center py-[170px] ">
       <div>
         <div className="sticky top-[170px] opacity-100 w-full flex justify-between items-center gap-[150px] mx-6">
           <div className=" flex flex-col w-full max-w-[350px]">
@@ -27,12 +27,12 @@ const About = () => {
             >
               <source src={vid} type="video/webm" />
             </video> */}
-            <img src={model} alt="vid" className="absolute bottom-[25%] right-[30%] w-[50%] h-[50%]" />
+            <img src={model} alt="vid" className="absolute bottom-[20%] right-[30%] w-[50%] h-[60%]" />
             <img src={Block} alt="block" />
           </div>
         </div>
 
-        <div className="sticky top-10 max-w-[380px] w-full pt-[110px] bg-slate-200 flex flex-col">
+        <div className="sticky top-10 max-w-[380px] w-full pt-[110px] bg-white flex flex-col">
           <h2 className="about-heading">We work to make your life easier </h2>
           <h3 className="mt-12 text-black font-[700]">Solution</h3>
           <p className="text-[#4f5662]">
