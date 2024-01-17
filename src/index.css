@@ -201,7 +201,14 @@ body::-webkit-scrollbar{
     line-height: 72px;
     margin: 0px;
 }
-
+.feature-heading{
+  font-family: Syne;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+    line-height: 72px;
+    margin: 0px;
+}
 
 
 

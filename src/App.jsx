@@ -1,4 +1,4 @@
-import { About, Hero, Footer, Navbar, Contact, Roadmap,Members } from './component'
+import { About, Hero, Footer, Navbar, Contact, Roadmap,Members,Features } from './component'
 
 function App() {
  
@@ -8,6 +8,7 @@ function App() {
      <Navbar/>
      <Hero/>
      <About/>
+     <Features/>
      <Roadmap/>
      <Members/>
      <Contact/>

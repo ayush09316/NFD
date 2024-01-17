@@ -5,5 +5,6 @@ import Navbar from './Navbar'
 import Contact from './Contact'
 import Roadmap from './Roadmap'
 import Members from './Members'
+import Features from './Features'
 
-export { Members,About, Hero, Footer, Navbar, Contact, Roadmap };
+export { Members,About, Hero, Footer, Navbar, Contact, Roadmap, Features };
