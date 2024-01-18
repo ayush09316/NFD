@@ -171,7 +171,7 @@ body::-webkit-scrollbar{
 .skew-border{
   @apply bg-transparent absolute top-0 left-0 ;
   width: 82%;
-  border-top: 7vw solid #F9F8FC;
+  border-top: 7vw solid white;
   border-right: 10vw solid transparent;
 }
 
@@ -227,7 +227,7 @@ body::-webkit-scrollbar{
 }
 .grid-bg{
   background-image: url(../src//assets/aggregator/Grid.png);
-  height: 797px;
+  height: 200rem;
   position: absolute;
   z-index: 2;
   top: 0px;
