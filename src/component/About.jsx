@@ -2,6 +2,7 @@ import Block from "../assets/about/block.webp";
 import model from "../assets/about/model.png";
 import logo from "../assets/about/logo.svg";
 
+
 const About = () => {
   return (
     <div id="about" className="w-full bg-white relative flex justify-center py-[170px] ">
@@ -19,14 +20,7 @@ const About = () => {
           </div>
 
           <div className="w-full max-w-[800px] relative ">
-            {/* <video
-              muted
-              preload="preload"
-              controls={false}
-              className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-[100] w-full h-full"
-            >
-              <source src={vid} type="video/webm" />
-            </video> */}
+          
             <img src={model} alt="vid" className="absolute bottom-[20%] right-[30%] w-[50%] h-[60%]" />
             <img src={Block} alt="block" />
           </div>

@@ -6,10 +6,16 @@ import nik from "../assets/member/nik.png";
 import leoor  from "../assets/member/leoor.webp";
 import vitale from "../assets/member/vitale.webp";
 import minter from "../assets/member/minter.webp";
+import { useState } from "react";
+import Form from "./Form";
 
 const Members = () => {
+  const [openForm, setOpenForm] = useState(false);
+  const handleForm = () => {
+    setOpenForm(!openForm);
+  }
   return (
-    <div className="relative w-full flex justify-center items-center bg-white py-[170px] ">
+    <div className="relative  w-full flex justify-center items-center bg-white py-[170px] ">
       <div className="absolute top-[50%] left-[-10%] opacity-60 ">
         <img src={circle} alt="circle" />
       </div>
@@ -17,7 +23,7 @@ const Members = () => {
         <img src={blurr} alt="blur" />
       </div>
 
-      <div className="w-full max-w-[1440px] ">
+      <div className={`w-full z-30 max-w-[1440px] ${openForm? 'blur-md':'blur-0'} `}>
         <div className=" w-full flex justify-between items-center gap-9 relative z-30 ">
           <div className="sticky flex flex-col self-start items-start justify-center max-w-[559px] top-[270px]">
             <h1 className="member-heading">
@@ -29,7 +35,7 @@ const Members = () => {
               development or crypto - just leave your request in form and we
               will consider it.
             </p>
-            <button className="relative min-w-[120px] h-[49px] flex items-start bg-transparent text-white justify-start w-full max-w-[183px]">
+            <button className="relative min-w-[120px] h-[49px] flex items-start bg-transparent text-white justify-start w-full max-w-[183px]" onClick={handleForm}>
               <div className="button-start"></div>
               <span className="hero-button-main max-w-[206px]"></span>
               <div className="w-full h-full absolute flex items-center justify-center gap-4 z-1 rounded-full text-white">
@@ -115,6 +121,12 @@ const Members = () => {
           </div>
         </div>
       </div>
+
+      {
+        openForm && (
+          <Form  handleForm={ handleForm} setOpenForm={setOpenForm}/>
+        )
+      }
     </div>
   );
 };

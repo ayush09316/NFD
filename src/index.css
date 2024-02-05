@@ -16,9 +16,7 @@ body{
 body::-webkit-scrollbar{
   display: none;
 }
-.nav-text{
-  @apply p-3 text-base cursor-pointer relative text-slate-600 hover:text-purple-600 ;
-}
+
 .mobile{
  @apply fixed w-full h-[100vh]  top-20 left-0 text-center flex-col underline decoration-white p-10 ; 
  
@@ -131,10 +129,7 @@ body::-webkit-scrollbar{
     background: linear-gradient(341.87deg, rgb(132, 138, 255) -1.64%, rgb(234, 140, 255) 106.1%) text;
     -webkit-text-fill-color: transparent;
 }
-.contact{
-  @apply relative w-full flex justify-center items-center h-[700px] rounded-b-[100px];
-  background: rgb(108, 82, 238);
-}
+
 .contact-heading{
   font-family: Syne;
     font-size: 60px;

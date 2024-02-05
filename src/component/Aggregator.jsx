@@ -6,6 +6,7 @@ import icon2 from "../assets/aggregator/icon2.svg";
 import icon3 from "../assets/aggregator/icon3.svg";
 import OPT from "../assets/aggregator/OPT.webp";
 import twitter from '../assets/contact/twitter.svg'
+import arrow from "../assets/aggregator/arrow.svg";
 
 const Aggregator = () => {
   return (
@@ -93,7 +94,9 @@ const Aggregator = () => {
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="w-[12rem] h-[10rem] absolute z-50 right-[30rem] bottom-[70rem]">
+            <img src={arrow} alt="arrow" />
+          </div>
         </div>
 
         <div className="w-full ">

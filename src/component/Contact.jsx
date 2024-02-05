@@ -8,7 +8,7 @@ import right from '../assets/contact/right.webp'
 const Contact = () => {
   return (
     <div id='contact-us' className="w-full bg-white">
-        <div className="contact z-10">
+        <div className=" relative w-full flex justify-center items-center h-[700px] rounded-b-[100px] bg-[#6c52ee] z-10">
             <div className='skew-border'></div>
             <div className='absolute z-[1] left-0'>
                 <img src={left} alt='left'/>
