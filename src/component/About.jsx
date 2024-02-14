@@ -3,6 +3,7 @@ import model from "../assets/about/model.png";
 import logo from "../assets/about/logo.svg";
 
 
+
 const About = () => {
   return (
     <div id="about" className="w-full bg-white relative flex justify-center py-[170px] ">
@@ -22,6 +23,7 @@ const About = () => {
           <div className="w-full max-w-[800px] relative ">
           
             <img src={model} alt="vid" className="absolute bottom-[20%] right-[30%] w-[50%] h-[60%]" />
+            
             <img src={Block} alt="block" />
           </div>
         </div>

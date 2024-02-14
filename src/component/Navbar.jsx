@@ -32,20 +32,20 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div>
-          <ul className="xl:flex hidden  gap-5 font-medium ">
-            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600">
-              <a href="#about">About</a>
+          <ul className="xl:flex hidden  gap-5 font-medium  ">
+            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600 hover:underline decoration-purple-600 underline-offset-8">
+              <a href="#about ">About</a>
             </li>
-            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600">
+            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600 hover:underline decoration-purple-600 underline-offset-8">
               <a href="#aggregator">Aggregator</a>
             </li>
-            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600">
+            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600 hover:underline decoration-purple-600 underline-offset-8">
               <a href="#feature">Features</a>
             </li>
-            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600">
+            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600 hover:underline decoration-purple-600 underline-offset-8">
               <a href="#roadmap">Roadmap</a>
             </li>
-            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600">
+            <li className=" p-3 text-base cursor-pointer relative  hover:text-purple-600 hover:underline underline-offset-8 decoration-purple-600 transition-all">
               <a href="#contact-us">Contact us</a>
             </li>
           </ul>

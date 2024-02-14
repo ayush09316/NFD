@@ -17,16 +17,6 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-.mobile{
- @apply fixed w-full h-[100vh]  top-20 left-0 text-center flex-col underline decoration-white p-10 ; 
- 
- background: linear-gradient(to bottom, #232325 0%,#212124 5%,#222126 17%,#242329 19%,#22222a 27%,#24242d 30%,#23232f 36%,#252531 37%,#242431 41%,#262633 42%,#262636 50%,#282838 52%,#262637 55%,#28283b 66%,#28283a 82%,#232330 100%);;
-}
-
-.mob-text{
-  @apply text-white text-3xl mt-6;
-}
-
 .hero-button{
   display: flex;
     align-items: center;
@@ -51,6 +41,7 @@ body::-webkit-scrollbar{
 .button-start::after{
   left: 0px;
     top: -30px;
+    z-index: 100;
     height: 76px;
     background: rgb(98, 144, 252);
 }
@@ -62,6 +53,7 @@ body::-webkit-scrollbar{
 }
 .button-end::after{
   right: -20px;
+  z-index: 100;
   top: 20px;
   height: 71px;
   background: rgb(149, 94, 252);
@@ -79,14 +71,9 @@ body::-webkit-scrollbar{
   position: absolute;
 }
 
-.hero-black-text{
-  font-family: Syne;
-  font-size: 50px;
-  font-weight: 700;
-  color: rgb(39, 39, 80);
+.text-black-gradient{
   background: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 162.5%) text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
 }
 .hero-gradient-text{
   font-family: Syne;
@@ -96,7 +83,6 @@ body::-webkit-scrollbar{
     background: linear-gradient(341.87deg, rgb(132, 138, 255) -1.64%, rgb(234, 140, 255) 106.1%) text;
     -webkit-text-fill-color: transparent;
 }
-
 
 .contact-button-start{
   position: relative;
@@ -139,8 +125,6 @@ body::-webkit-scrollbar{
   background: linear-gradient(147.35deg, rgb(35, 35, 36) -0.9%, rgb(21, 21, 22) 116.23%);
 }
 
-
-
 .agg-bg{
   background-image: url(../src//assets/roadmap/noiseOPT.webp);
     height: 100%;
@@ -150,6 +134,7 @@ body::-webkit-scrollbar{
     top: 0px;
     left: 0px;
 }
+
 .grid-bg{
   background-image: url(../src//assets/aggregator/Grid.png);
   height: 200rem;
@@ -159,6 +144,7 @@ body::-webkit-scrollbar{
   left: 0px;
   width: 100%;
 }
+
 .Syne-family{
   font-family: Syne;
 }
