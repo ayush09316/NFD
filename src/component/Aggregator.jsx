@@ -56,8 +56,8 @@ const Aggregator = () => {
                   <button className="relative min-w-[206px] h-[49px] flex items-start bg-transparent text-white justify-start w-full max-w-[183px]">
                     <div className="button-start"></div>
                     <span className="hero-button-main"></span>
-                    <div className="w-full h-full absolute flex items-center justify-center gap-4 z-1 rounded-full text-white">
-                      Create Platform
+                    <div className="w-full h-full font-[500] text-lg absolute flex items-center justify-center gap-4 z-1 rounded-full text-white">
+                      Start Creating
                     </div>
                     <div className="button-start button-end"></div>
                   </button>

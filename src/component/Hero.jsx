@@ -10,11 +10,11 @@ import buttonEffect from '../assets/hero/button-effect.svg';
 const Hero = () => {
   return (
     <div className='flex xs:flex-col xl:flex-row xl:gap-0 xs:gap-4 xs:rounded-3 items-center w-full pt-[107px] pb-4 mr-6 ml-6 max-w-[1440px]'>
-      <div className='flex relative overflow-hidden  flex-col items-center rounded-tl-xl rounded-bl-xl pt-[72px] pr-16 pl-16 pb-[115px] bg-white w-[50%] '>
+      <div className='flex relative overflow-hidden  flex-col items-center rounded-tl-xl rounded-bl-xl pt-[115px] pr-16 pl-16 pb-[115px] bg-white w-[50%] '>
         <img src={teddy} alt="teddy" />
         <div className='flex flex-col mt-8  items-center'>
-          <span className='text-heading-1'>NFD platform</span>
-          <span className='text-heading-2'>“NFD.gg”</span>
+          <span className='font-bold text-6xl Syne-family text-black'>NFD platform</span>
+          <span className='font-bold text-5xl Syne-family text-[#848aff] text-center'>“NFD.gg”</span>
         </div>
 
         <div className='mt-4 text-center w-full max-w-[568px] text-lg'>
@@ -22,19 +22,19 @@ const Hero = () => {
         </div>
 
         <div className='xl:flex gap-5 mt-10 justify-between xs:hidden'>
-          <div className='hero-card'>
+          <div className='bg-white flex items-center justify-between rounded-2xl gap-3 py-1 pl-1 pr-5 shadow-lg'>
             <div className='w-9 h-9 rounded-xl flex items-center justify-center bg-slate-100'>
               <img src={info} alt='info'/>
             </div>
             <p>Info in one place</p>
           </div>
-          <div className='hero-card'>
+          <div className='bg-white flex items-center justify-between rounded-2xl gap-3 py-1 pl-1 pr-5 shadow-lg'>
             <div className='w-9 h-9 rounded-xl flex items-center justify-center bg-slate-100'>
               <img src={Private} alt='private'/>
             </div>
             <p>Private Tools</p>
           </div>
-          <div className='hero-card'>
+          <div className='bg-white flex items-center justify-between rounded-2xl gap-3 py-1 pl-1 pr-5 shadow-lg'>
             <div className='w-9 h-9 rounded-xl flex items-center justify-center bg-slate-100'>
               <img src={wide} alt='wide'/>
             </div>
@@ -55,12 +55,12 @@ const Hero = () => {
           </div>
           <button className='hero-button '>How it works?</button>
         </div>
-        <div className='hero-effect'></div>
+        <div className='hero-effect bottom-0'></div>
       
     </div>
 
-    <div className='bg-black relative rounded-tr-[12px] rounded-br-[12px] h-auto w-[50%] flex flex-col items-center px-16 pt-[122px] pb-[115px]'>
-    <div className='hero-effect-1'></div>
+    <div className='bg-black relative rounded-tr-[12px] rounded-br-[12px] h-auto w-[50%] flex flex-col items-center px-16 pt-[115px] pb-[115px]'>
+    <div className='hero-effect top-0 -scale-y-100'></div>
       <img src={software} alt="software" />
       <div className='flex flex-col items-center mt-10 '>
         <span className='hero-black-text'>NFD software</span>

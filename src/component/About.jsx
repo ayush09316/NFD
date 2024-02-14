@@ -9,7 +9,7 @@ const About = () => {
       <div>
         <div className="sticky top-[170px] opacity-100 w-full flex justify-between items-center gap-[150px] mx-6">
           <div className=" flex flex-col w-full max-w-[350px]">
-            <h2 className="about-heading">The first web3 crypto platform </h2>
+            <h2 className="Syne-family text-[46px] font-bold text-[#171717] leading-[54px]">The first web3 crypto platform </h2>
             <h3 className="mt-12 text-black font-[700]"> Problem</h3>
             <p className="text-[#4f5662]">
               Today, even in alpha communities, there&aposs an enormous volume
@@ -27,7 +27,7 @@ const About = () => {
         </div>
 
         <div className="sticky top-10 max-w-[380px] w-full pt-[110px] bg-white flex flex-col">
-          <h2 className="about-heading">We work to make your life easier </h2>
+          <h2 className="Syne-family text-[46px] font-bold text-[#171717] leading-[54px]">We work to make your life easier </h2>
           <h3 className="mt-12 text-black font-[700]">Solution</h3>
           <p className="text-[#4f5662]">
             NFD.gg heralds a new era in alpha communities, one where they have

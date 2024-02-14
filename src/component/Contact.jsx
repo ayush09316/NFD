@@ -20,7 +20,7 @@ const Contact = () => {
                 <img src={star} alt="star"/>
             </div>
             <div className='flex flex-col items-center justify-center gap-12 relative mt-[100px] z-10 '>
-            <h3 className='contact-heading'>Join our community</h3>
+            <h3 className='Syne-family text-[60px] font-bold text-center text-white leading-[72px]'>Join our community</h3>
             <div className='flex items-center gap-10 w-full justify-center'>
                 <button className='relative min-w-[120px] h-[49px] flex items-start bg-transparent text-white justify-start w-full max-w-[183px]'>
               <div className='contact-button-start'></div>

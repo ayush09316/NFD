@@ -20,7 +20,7 @@ const Roadmap = () => {
       </div>
       <div className="w-full max-w-[1440px] mx-6 flex flex-col items-center justify-center gap-[110px]">
         <div className="flex items-center justify-center flex-col">
-          <h1 className="roadmap-heading">
+          <h1 className="Syne-family text-[80px] font-bold text-white leading-[88px] text-center mx-[45px]">
             NFD - game changing crypto platform
           </h1>
           <div className="flex gap-11 items-center">

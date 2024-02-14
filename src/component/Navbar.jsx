@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav
       className={`w-full fixed   top-0 flex justify-center opacity-100 z-[1000] ${
-        nav ? "bg-[#373145cc] py-0" : "py-4"
+        nav ? "bg-[#373145cc] py-0 transition-colors" : "py-4"
       }`}
     >
       <div

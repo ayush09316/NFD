@@ -26,7 +26,7 @@ const Members = () => {
       <div className={`w-full z-30 max-w-[1440px] ${openForm? 'blur-md':'blur-0'} `}>
         <div className=" w-full flex justify-between items-center gap-9 relative z-30 ">
           <div className="sticky flex flex-col self-start items-start justify-center max-w-[559px] top-[270px]">
-            <h1 className="member-heading">
+            <h1 className=" Syne-family text-[60px] font-bold text-[#171717] leading-[72px]">
               We are delighted to introduce the NFD team members to you
             </h1>
             <p className="mt-9 mb-12">
