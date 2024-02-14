@@ -1,6 +1,4 @@
 
-
-
 import PropTypes from 'prop-types';
 
 const Accordian = ({ title, index, text, isActive, setActiveIndex }) => {

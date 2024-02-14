@@ -1,6 +1,6 @@
 import activity from "../assets/feature/activities.webp";
 import { features } from "../constant";
-import Accordian from "../utility/accordian";
+import Accordian from "../component/ui/Acordian";
 import { useState } from "react";
 
 const Features = () => {
