@@ -48,20 +48,23 @@ const Members = () => {
           <div className="bg-white flex  items-center justify-end w-full max-w-[805px] rounded-3xl overflow-hidden flex-wrap z-50">
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px] border-2">
               <div className="flex justify-center items-center relative w-[158px] h-[158px] rounded-full border-2">
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#ffecd2] to-[#fcb69f]  top-1 right-7 border-2 rounded-full"></div>
                 <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#fbc2eb] to-[#a6c1ee]">
-                  <img src={william} alt="william" />
+                  <img src={william} alt="william"  className="w-[150px] h-[150px] rounded-[50%]"/>
                 </div>
               </div>
 
               <div className="text-center flex flex-col items-center justify-center gap-2">
+               
                 <h4>William</h4>
                 <span>CTO</span>
               </div>
             </div>
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px] border-[#e1e9f0] border-2">
               <div className="flex  justify-center items-center relative w-[158px] h-[158px] rounded-full border-2">
-                <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#ffecd2] to-[#fcb69f]">
-                  <img src={leoor} alt="william" />
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#d4fc79] to-[#96e6a1]  top-1 right-7 rounded-full"></div>
+                <div className="w-[150px] h-[150px]  rounded-[50%] bg-gradient-to-r from-[#ffecd2] to-[#fcb69f]">
+                  <img src={leoor} alt="william" className="w-[150px] h-[150px] rounded-[50%]" />
                 </div>
               </div>
 
@@ -72,8 +75,9 @@ const Members = () => {
             </div>
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px]  border-[#e1e9f0]  border-2">
               <div className="flex justify-center items-center relative w-[158px] h-[158px] rounded-full border-2">
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#ffecd2] to-[#fcb69f]  top-1 right-7 border-2 rounded-full"></div>
                 <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#d4fc79] to-[#96e6a1]">
-                  <img src={minter} alt="william" />
+                  <img src={minter} alt="minter"  className="w-[150px] h-[150px] rounded-[50%]"/>
                 </div>
               </div>
 
@@ -84,8 +88,9 @@ const Members = () => {
             </div>
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px]  border-[#e1e9f0]  border-2">
               <div className="flex rounded-full justify-center items-center relative w-[158px] h-[158px] border-2">
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#d4fc79] to-[#96e6a1]  top-1 right-7 border-2 rounded-full"></div>
                 <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#e0c3fc] to-[#8ec5fc]">
-                  <img src={vitale} alt="william" />
+                  <img src={vitale} alt="vitale" className="w-[150px] h-[150px] rounded-[50%]" />
                 </div>
               </div>
 
@@ -96,8 +101,9 @@ const Members = () => {
             </div>
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px] border-[#e1e9f0]  border-2">
               <div className="flex justify-center items-center relative w-[158px] h-[158px] rounded-full border-2">
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#ffecd2] to-[#fcb69f]  top-1 right-7 border-2 rounded-full"></div>
                 <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#cfd9df] to-[#e2ebf0]">
-                  <img src={nik} alt="william" />
+                  <img src={nik} alt="nik" className="w-[150px] h-[150px] rounded-[50%]" />
                 </div>
               </div>
 
@@ -108,8 +114,9 @@ const Members = () => {
             </div>
             <div className="bg-white flex gap-6 justify-center items-center flex-col w-full max-w-[260px] py-[55px]  border-[#e1e9f0]  border-2">
               <div className="flex justify-center items-center relative w-[158px] h-[158px] rounded-full border-2">
+              <div className="absolute w-4 h-4 bg-gradient-to-r from-[#cfd9df] to-[#e2ebf0]  top-1 right-7 border-2 border-black rounded-full"></div>
                 <div className="w-[150px] h-[150px] rounded-[50%] bg-gradient-to-r from-[#a8edea] to-[#fed6e3]">
-                  <img src={Den} alt="william" />
+                  <img src={Den} alt="den"  className="w-[150px] h-[150px] rounded-[50%]" />
                 </div>
               </div>
 
